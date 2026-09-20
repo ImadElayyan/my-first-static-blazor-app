@@ -1,0 +1,29 @@
+@page "/login"
+
+<PageTitle>Login</PageTitle>
+
+<div class="login-container">
+    <section class="login-card" aria-labelledby="login-heading">
+        <h1 id="login-heading">Welcome back</h1>
+        <p class="login-description">Sign in to continue to Static Web Apps.</p>
+
+        <form>
+            <div class="mb-3">
+                <label for="email" class="form-label">Email address</label>
+                <input id="email" class="form-control" type="email" autocomplete="email" required />
+            </div>
+
+            <div class="mb-3">
+                <label for="password" class="form-label">Password</label>
+                <input id="password" class="form-control" type="password" autocomplete="current-password" required />
+            </div>
+
+            <div class="form-check mb-3">
+                <input id="remember-me" class="form-check-input" type="checkbox" />
+                <label for="remember-me" class="form-check-label">Remember me</label>
+            </div>
+
+            <button type="submit" class="btn btn-primary w-100">Sign in</button>
+        </form>
+    </section>
+</div>
